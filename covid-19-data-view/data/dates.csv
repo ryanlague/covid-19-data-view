@@ -1,0 +1,6 @@
+name,category,source,date,description
+Alpha,Variants,https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/,2020-12-18,Date of designation for Alpha variant
+Beta,Variants,https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/,2020-12-18,Date of designation for Beta variant
+Gamma,Variants,https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/,2021-01-11,Date of designation for Gamma variant
+Delta,Variants,https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/,2021-04-04,Date Delta was declared a VOI (Variant of Interest)
+Omicron,Variants,https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/,2021-11-24,Date Omicron was declared a VUM (Variant Under Monitoring)
