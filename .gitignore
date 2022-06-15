@@ -1,4 +1,6 @@
 .idea/
 __pycache__
 */output
-*data_backup
+*/data_backup
+*/data/archive/*
+*/data/owid-covid-data.csv

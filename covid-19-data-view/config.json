@@ -3,5 +3,7 @@
   "codebook_path": "data/owid-covid-codebook.csv",
   "coordinates_path": "data/country_coordinates.csv",
   "dates_path": "data/dates.csv",
-  "custom_location_presets_path": "presets/locations.json"
+  "custom_location_presets_path": "presets/locations.json",
+
+  "max_age_days": 14
 }

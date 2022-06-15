@@ -65,8 +65,8 @@ class CovidDataProcessor:
     @classmethod
     def getPresetNames(cls):
         base_presets = list(Dataset.Preset.presets.keys())
-        custom_presets_path = Path(cls.getConfig('custom_presets_path'))
-        custom_presets = Dataset.Preset.getCustomPresets(custom_presets_path)
+        custom_presets_path = Path(cls.getConfig()['custom_location_presets_path'])
+        custom_presets = list(Dataset.Preset.getCustomPresets(custom_presets_path).keys())
         return base_presets + custom_presets
 
     def getDateNames(self):
