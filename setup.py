@@ -22,5 +22,10 @@ setup(
     package_data={},
     url='https://github.com/ryanlague/covid19dataview',
     install_requires=[
+        'pandas',
+        'numpy',
+        'matplotlib',
+        'requests',
+        'tqdm'
     ]
 )
