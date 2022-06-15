@@ -67,8 +67,8 @@ if __name__ == '__main__':
     parser.add_argument('-filters', nargs='*',
                         help="Filters to narrow down which locations are shown. "
                              "Use format: filterName1=value1 filterName2=value2 ")
-    parser.add_argument('-startDate', default='2020-01-01', help='Analyze the data beginning on this date')
-    parser.add_argument('-endDate', default=None, help='Analyze the data before this date')
+    parser.add_argument('-startDate', default='2020-01-01', help='Analyze the data beginning on this date (yyyy-mm-dd)')
+    parser.add_argument('-endDate', default=None, help='Analyze the data before this date (yyyy-mm-dd)')
     parser.add_argument('-show', default=[], nargs='*', choices={'locations', 'fields', 'plot', 'shortcuts'},
                         help='Things to show on screen')
     parser.add_argument('-plotStyles', default=['all_at_once'], nargs='*', choices={'one_at_a_time', 'all_at_once'},
