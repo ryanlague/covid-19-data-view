@@ -11,7 +11,7 @@ else:
     long_description = short_description = ''
 
 setup(
-    name='covid19dataview',
+    name='covid-19-data-view',
     version='1.0.0',
     license='MIT',
     author='Ryan Lague',

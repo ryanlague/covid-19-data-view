@@ -6,12 +6,12 @@ View international data on Covid-19 as collected by https://ourworldindata.org/ 
 
 ### PyPI (for use as a module)
 ```bash
-    pip install covid19dataview
+    pip install covid-19-data-view
 ```
 ### GitHub
 ```bash
-clone https://github.com/ryanlague/covid19dataview.git
-cd covid19dataview
+clone https://github.com/ryanlague/covid-19-data-view.git
+cd covid-19-data-view
 pip install .
 ```
 
